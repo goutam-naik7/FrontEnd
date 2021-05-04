@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="text1"></input>
+    <input type="button" id="button1" value="Add" onclick="add()"></input>
+    <input type="button" id="button2" value="Display" onclick="display()"></input>
+
+    <div id="result"></div>
+
+
+
+   <script>
+
+       var x=0;  
+       var array = Array();
+
+      function add(){
+           array[x]= document.getElementById("text1").value ;
+           alert("Task is added: " + array[x])
+           x++;
+           document.getElementById("text1").value= "";
+      }
+
+      function display() {
+            var e="<hr/>";
+
+            for(var y= 0; y< array.length; y++){
+                e += "Task: " + y + " = " + array[y] + "<br/>";
+
+             }
+             document.getElementById("result").innerHTML= e;
+        }
+
+
+   </script>
+</body>
+</html>

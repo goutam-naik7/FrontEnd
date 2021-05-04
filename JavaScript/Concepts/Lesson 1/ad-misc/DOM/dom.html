@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Utkarshini Arora</h1>
+    </div>
+    <img id="myImg" src="logo.jpg" cust_attr="some value" >
+
+    <!-- angular custom attribute: ng -->
+    <div ng-app="sample">
+        <p>name: <input ng-model="name" type="text"></p>
+    </div>
+
+    <span id="headerImg">
+        <img src="home.gif">
+        <img id="abt" src="about.gif" cust_attr="some value">
+        <img src="contact.gif">
+
+    </span>
+    <span name="email">
+        <form action=""></form>
+    </span>
+
+
+</body>
+
+<script>
+    // methods in DOM
+document.getElementById("myImg").src="new.jpg"
+document.getElementById("muImg").getAttribute("cust_attr")="new_img.jpg";
+//setAttribute
+
+document.getElementById("headerImg").childNodes[1].getAttribute("cust_attr")="a_new.gif";
+
+
+document.getElementById("headerImg").firstChild.src="h_new.gif"
+    document.getElementById("headerImg").lastChild.src = "h_new.gif"
+
+document.getElementById("abt").previousSibling.src="home_new.gif"
+    document.getElementById("abt").nextSibling.src = "home_new.gif"
+
+document.getElementsByTagName("img")[1].src=""
+document.getElementsByName()
+
+
+//setTimeout(function, milliseconds)
+//setInterval(function, milliseconds)
+</script>
+</html>
+
+
+<body>
+    <img id="img1" src="logo.gif" alt="">
+    <img src="home.gif" alt="">
+    <img src="http://google.com" alt="">
+</body>
+
+

@@ -1,0 +1,17 @@
+body {
+  background: url(../images/city.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+#im {
+  max-height: 100px;
+  max-width: 100px;
+  margin: 0 auto;
+}
+
+#login .modal-dialog {
+  width: 350px;
+}
+#login input[type="text"],
+input[type="password"] {
+  margin-top: 10px;
+}

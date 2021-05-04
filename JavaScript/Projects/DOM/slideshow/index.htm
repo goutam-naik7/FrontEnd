@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //setTimeout
+        var i = 0;  // start point 
+        var images = []
+        var time = 1000;
+        // image list 
+        images[0] = 'image1.jpg'
+        images[1] = 'image2.jpg'
+        images[2] = 'image3.jpg'
+        images[3] = 'image4.jpg'
+
+
+        //setTimeout(changeImg(), time)
+
+        // change the image
+        function changeImg() {
+            document.slide.src = images[i];
+
+            if (i < images.length - 1) {
+                i++;
+            } else {
+                i = 0;  // show up the first index
+            }
+
+            setTimeout("changeImg()", time)
+        }
+
+        window.onload = changeImg
+
+
+
+
+    </script>
+    <img name="slide" width="400" height="200">
+</body>
+
+</html>

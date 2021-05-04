@@ -1,0 +1,41 @@
+
+
+Hello everyone welcome to the full stack course at geekster.
+
+In this course, you’ll learn all about becoming a web developer, from the responsibilities that a web developer performs on a day-to-day basis to the set of skills that you’d need to succeed in such a role. And, of course, you’ll also get your hands dirty with code.
+
+So who is a web developer? 
+
+A web developer is an interactive artist. They’re someone driven by a deep desire to create things.a web developer’s job is to use the basic building blocks of the web (like HTML, CSS and JavaScript) to create something complex like a webpage. Don’t sweat it! We’ll get into all of those terms soon.
+
+A web developer is also skilled to  diagnose problems in a website’s functionality, to understand how something works by reading the code behind it, and to make changes to fix any issues.
+
+There are different types of web developers who focus on different areas. These include:
+* Frontend developers: Frontend developers implement web page designs using HTML and CSS. They make sure the website looks pretty on different devices, and that the forms and buttons work.
+* Backend developers: Backend developers create the backbone of the web application. They write code logic that handles a user’s input (for example, what should happen when you click the signup button after filling in a form).
+* Full stack developers: Full stack developers do bits of both backend and frontend. Depending on the problem at hand, they can switch cape 🦸‍♀️🦸‍♂️ and move stacks.
+
+
+What does it take to become a web developer? Essentially, just three things: HTML, CSS and JavaScript—the three pillars of the web, which we’ll be learning in this course. Together, these three pillars make every website work, defining the content to be displayed (HTML), telling a browser how to display that content (CSS), and making the content interactive (JavaScript), respectively.
+
+The stack which we will focus on is  MERN Stack: 
+
+It is a web development framework. It consists of MongoDB, ExpressJS, ReactJS, and NodeJS.  Lets look at each of these components a little bit in detail and how they are used to develop a web application when using mern stack. 
+* 		MongoDB: When we are talking about mongo db we are focusing on the database layer of the web application. It is a document-oriented, No-SQL database used to store the application data.
+* 		ExpressJS: A framework layered on top of NodeJS, used to build the backend of a site using NodeJS functions and structures. Since NodeJS was not developed to make websites but rather run JavaScript on a machine, ExpressJS was developed.
+
+* 		NodeJS: The JavaScript runtime environment. It is used to run JavaScript on a machine rather than in a browser.
+
+ReactJS: A library created by Facebook. It is used to build UI components that create the user interface of the single page web application.
+
+So why mern stack?
+
+A very common question asked. There are a couple of reasons for that. 
+It helps you to create both Web and Mobile applications. React Native is one of the popular hybrid (supports both android and ios) mobile development framework which is based on JavaScript and React JS. So once you master MERN stack, learning React Native is a cake walk. You can build the mobile app UI using React Native and back-end with Node JS.
+As Javascript is used throughout and across the stack, developers don’t need to learn and change gears to work with a different technology.
+The entire stack is very easy to learn and good fit for beginners.
+
+At the end of this course you will be able to create full- fledged website with a working backend, a responsive website and a database to store all the data. 
+
+After this course you can confidently create a simple blog website, Todo apps, ecommerce platforms, social application and pretty much everything you can dream of. 
+

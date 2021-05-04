@@ -1,0 +1,18 @@
+.navbar {
+  padding: 1rem 8rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li > a {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0 1rem;
+}
+
+#navbarSupportedContent > ul > li > a:hover {
+  color: #00b585;
+}

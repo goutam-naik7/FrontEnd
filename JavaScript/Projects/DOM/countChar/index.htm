@@ -1,0 +1,55 @@
+<!-- create a text area, count the characters in it  -->
+
+<!-- Step 1: create a text area: class output: display the no of chars -->
+
+
+<!-- Step 2: grabbing the elements, listner has a func: textCounter -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <textarea class="txtLimits"></textarea>
+        <div class="output"></div>
+    </div>
+
+    <script>
+        const output = document.querySelector(".output");
+        const txt = document.querySelector("textarea");
+
+        //txt.addEventListener("change",textCounter);
+        //txt.addEventListener("keyup",textCounter);
+        //txt.addEventListener("keydown",textCounter);
+
+        ["keyup", "keydown", "change"].forEach(function (e) {
+            txt.addEventListener(e, textCounter);
+        })
+
+        const maxLength = 20;
+        const warnLength = 7;
+
+        function textCounter(e) {
+            let count = txt.value.length;
+            if (count > maxLength) {
+                txt.value = txt.value.substring(0, maxLength);
+            }
+            if (count > warnLength) {
+                output.classList.add("red");
+            } else {
+                output.classList.remove("red");
+            }
+            output.innerHTML = (maxLength - count) + " characters left";
+
+        }
+
+    </script>
+</body>
+
+</html>
